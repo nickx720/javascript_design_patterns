@@ -1,0 +1,16 @@
+{
+  "name": "pro_design_patterns",
+  "version": "1.0.0",
+  "description": "Notes for the Pro JavaScript Design Patterns",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript",
+    "Design",
+    "Patterns"
+  ],
+  "author": "Nick",
+  "license": "MIT"
+}
