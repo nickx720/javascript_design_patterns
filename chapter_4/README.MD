@@ -9,7 +9,7 @@
 
 **How does classical inheritance look in JavaScript?**
 
-`
+```
 function Person(name){
 this.name = name;
 }
@@ -17,13 +17,13 @@ this.name = name;
 Person.prototype.getName = function(){
 return this.name;
 }
-`
+```
 
 ---
 
 **Give an example of inheritance using Class in JavaScript?**
 
-`
+```
 function Author(name,books){
 Person.call(this,name); // Call the superclass's constructor in scope of this
 this.books = books; // Add an attribute to Anchor
@@ -34,7 +34,7 @@ Author.prototype.constructor = Author; // Set the constructor attribute to Autho
 Author.prototype.getBooks = function() { // Add a method to Author.
 return this.books;
 }
-`
+```
 
 ---
 
@@ -43,10 +43,10 @@ return this.books;
 The constructor function is called on an empty object at the front of the scope chain.Once created, set the subclass prototype to point to an instance of the superclass.
 
 For example
-`
+```
 Author.prototype = new Person(); // Set up the prototype chain.
 Author.prototype.constructor = Author; // Set the constructor attribute to Author.
-`
+```
 
 ---
 
@@ -70,14 +70,14 @@ Instead of defining the structure through a class as above, create an object, wh
 
 **Give an example of Prototypical inheritance?**
 
-`
+```
 var Person = {
 name: 'default name',
 getName: function(){
 return this.name;
 }
 };
-`
+```
 
 ---
 
