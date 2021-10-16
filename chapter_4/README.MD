@@ -86,3 +86,21 @@ return this.name;
 An object literal as above, which can be used for other Person-like objects for Person instance creation.
 
 ---
+
+**How does prototypal inheritance work?**
+
+A inherited/cloned object is not independent copy of its *prototype object*, it is new empty object with its prototype attribute set to the *prototype object*
+
+---
+
+**How does *hasOwnProperty* help?**
+
+It can be used to distinguish between inherited members and object's actual members.
+
+---
+
+**What are *Mixin classes* used for?**
+
+These are general purpose methods which can be used across classes. Similar to traits in Rust. It has the benefit of being not restricted by parent-child relationship i.e it can be inherited by many classes.
+
+---
