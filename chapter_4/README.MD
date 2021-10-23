@@ -1,4 +1,4 @@
-# Chapter 4
+: Chapter 4
 
 **Why do you need inheritance?**
 
