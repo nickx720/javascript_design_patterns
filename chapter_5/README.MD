@@ -54,3 +54,35 @@ It can be used to wrap page-specific code.
 
 1. Underscore notation
 2. Closures.
+
+---
+
+**What is lazy loading used for with Singleton?**
+
+If a singleton is too expensive to load, it makes sense to defer the instatiation till it is needed and can be done using flags.
+
+---
+
+**What is branching?**
+
+It allows to encapsulate browser differences into dynamic methods that can be set at runtime.
+
+---
+
+**When should the Singleton pattern be used?**
+
+1. Namespacing
+2. Modularising
+
+---
+
+**What are the benefits of Singleton pattern?**
+
+1. Organization of code
+2. Grouping of related method/attributes together in a single location.
+
+---
+
+**What are the drawbacks of Singleton pattern?**
+
+1. Tightly couples the code
